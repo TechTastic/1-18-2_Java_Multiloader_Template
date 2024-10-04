@@ -3,7 +3,7 @@ architectury {
 }
 
 dependencies {
-    implementation(("io.github.llamalad7:mixinextras-common:0.2.1"))
+    compileOnly("io.github.llamalad7:mixinextras-common:0.4.1")
 
     // We depend on Fabric Loader here to use the Fabric @Environment annotations,
     // which get remapped to the correct annotations on each platform.
